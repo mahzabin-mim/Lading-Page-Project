@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/336e3edc87.js" crossorigin="anonymous"></script>
+
+    <title>Lnading Page</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container row">
+            <div class="logo-btn">
+                <a href="#"><img src="image/logo.png" id="header-img" class="logo"></a> 
+    
+                <div class="nav-toggle"></div>
+            </div>
+    
+            <nav id="nav-bar" class="nav-bar">
+                <ul class="nav-list">
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#feedback" class="nav-link">Feedback</a></li>
+                    <li><a href="#about-us" class="nav-link">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="section-one">
+            <div class="container row">
+                <div class="text-container">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" class="section-one__form">
+                        <label for="email" class="email-label">
+                            <h1 class="section-one__header">
+                                Start your <span class="text-style">competitive programming</span> Journey!
+                            </h1>
+                        </label>
+                        
+                        <p>Get our exclusive competitive programming roadmap and course curriculum.</p>
+                        
+                        <div class="inputs">
+                            <input 
+                            type="email" 
+                            placeholder="Enter your email" 
+                            name="email"
+                            id="email" class="email"
+                            required>
+    
+                            <input 
+                                type="submit" 
+                                id="submit" class="email-submit-btn"
+                                value="Get it">
+                        </div>
+                    </form>
+                </div>
+
+                <img class="section-one__img" src="image/undraw_coding_re_iv62.svg" alt="illustration of a person programming">
+            </div>
+        </section>
+
+
+        <section class="section-two" id="courses">
+            
+            <div class="container">
+                <h2 class="section-two__header">Our courses</h2>
+     
+                <div class="row">
+                    <div class="card">
+                        <h3 class="card__header">
+                            C++
+                        </h3>
+    
+                        <div class="card__body">
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo praesentium blanditiis nulla vero amet culpa natus, magni, pariatur, possimus et neque modi laudantium?</p>
+    
+                            <button class="btn card__btn">select</button>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <h3 class="card__header">
+                            Data Structure
+                        </h3>
+    
+                        <div class="card__body">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo praesentium blanditiis nulla vero amet culpa natus, magni, pariatur, possimus et neque modi laudantium?</p>
+    
+                            <button class="btn card__btn">select</button>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <h3 class="card__header">
+                            Maths for CP
+                        </h3>
+    
+                        <div class="card__body">
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo praesentium blanditiis nulla vero amet culpa natus, magni, pariatur, possimus et neque modi laudantium?</p>
+    
+                            <button class="btn card__btn">select</button>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="section-two__text">More courses coming soon...</p>
+            </div>
+
+        </section>
+
+
+
+        <section class="section-three">
+            <div class="container">
+                <h2 class="section-three__header">
+                    Here's a video for you if you've never done coding before and think it's difficult!
+                </h2>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hb7Q33ysCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section-four" id="feedback">
+            <div class="container">
+                <form class="contact-form">
+                    <h3 class="contact-form__header">Give us your feedback!</h3>
+
+                    <div class="contact-form__textbox">
+                        <label for="name">Name:</label>
+
+                        <input 
+                        type="text" 
+                        id="name" 
+                        placeholder="Enter your name" name="name" required>
+                    </div>
+
+                    <div class="contact-form__textbox">
+                        <label for="contact-email">Email Address:</label>
+
+                        <input 
+                        type="email" 
+                        id="contact-email" placeholder="Enter your email address" 
+                        name="contact-email" required>
+                    </div>
+
+                    <div class="contact-form__textbox">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn contact-form__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="section-five" id="about-us">
+            <div class="container row">
+                <div class="text-container">
+                    <h2 class="section-five__header">About us</h2>
+                <p>Hi! Welcome to our website! 'Road to CP' is an initiative to help beginners learn competitive programming step by step. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit possimus laudantium saepe ea quaerat accusantium quisquam doloribus illo perspiciatis. Est, laboriosam? Hic magnam delectus libero quasi. Ea, natus. Blanditiis!</p>
+                </div>
+
+                <img src="image/undraw_handcrafts_plants.svg" class="section-five__img">
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+       <div class="container">
+            <p class="footer__text">Find us also at:</p>
+            <ul class="footer__list">
+                <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-discord"></i></a></li>
+            </ul>
+    
+            <p class="footer__copyright">© 2021 Road to CP Media Inc.</p>
+       </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
