@@ -49,7 +49,7 @@ img {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
-    word-spacing: 2;
+    letter-spacing: 0.05rem;
     padding: 0.65em 1.5em;
     font-size: 1rem;
 
@@ -175,7 +175,7 @@ header {
 .section-one {
     background: var(--primary-clr);
 
-    padding: 20vmin 0;
+    padding: 17vmin 0;
 }
 
 .section-one__header {
@@ -309,6 +309,9 @@ header {
     justify-content: center;
 }
 
+#video {
+    border: none;
+}
 
 
 /* ------------section-four */
